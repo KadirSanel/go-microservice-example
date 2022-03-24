@@ -1,3 +1,4 @@
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/KadirSanel/go-microservice-example)
 # Go User Microservice Tutorial 
 
 Go user microservice with postgresql and docker
