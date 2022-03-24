@@ -58,3 +58,9 @@ then
     echo [${CURRENTDATE}] - Running service...
     ./bin/example-microservice
 fi
+
+if [ "$1" == "stopdb" ]
+then
+  echo [${CURRENTDATE}] - Stopping database service...
+    docker stop go_example_db
+fi
