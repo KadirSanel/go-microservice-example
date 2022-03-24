@@ -84,11 +84,11 @@ Host: 192.168.1.2:8000
 ```
 
 #### Create User
-##### POST /api/user/{id}
+##### POST /api/user/
 Example Request:
 
 ```http
-POST /api/user/232 HTTP/1.1
+POST /api/user/ HTTP/1.1
 Host: 192.168.1.2:8000
 Content-Type: application/json
 {
